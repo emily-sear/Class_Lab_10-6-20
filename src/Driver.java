@@ -17,8 +17,7 @@ public class Driver
 		}
 		
 		System.out.println();
-		System.out.println();
-		
+
 		for(int i = 0; i < list.length; i++)
 		{
 			int smallest = list[i];
@@ -32,15 +31,12 @@ public class Driver
 				{
 					smallest = list[j];
 					counter = j;
-					
 				}
-				
 			}
 			
 			list[counter] = largest;
 			list[i] = smallest;
 		}
-		
 		
 		for(int m = 0; m < list.length; m++)
 		{
